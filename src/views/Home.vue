@@ -13,12 +13,12 @@
                 <p class="spot-text">Web Developer - Graphic Artist - User Experience Designer</p>
             </div>
 
-            <div class="section section-portfolio">
+            <div id="portfolio" class="section section-portfolio">
                 <h3 class="section-title-black">PORTFOLIO</h3>
                 <list></list>
             </div>
 
-            <div class="section section-about">
+            <div id="about" class="section section-about">
                 <h3 class="section-title-black">ABOUT</h3>
                 <div class="about-text-area">
                     <p class="section-text">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
@@ -26,7 +26,7 @@
                 </div>
             </div>
 
-            <div class="section section-contact">
+            <div id="contact" class="section section-contact">
                 <h3 class="section-title-black">CONTACT ME</h3>
                 <contactform></contactform>
                 <button type="button">SEND</button>
