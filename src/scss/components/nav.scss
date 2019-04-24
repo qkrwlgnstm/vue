@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.nav{
+
+}
+.nav-list{
+    padding-top: 10px;
+    .list-item{
+        float: left;
+        padding-left: 30px;
+        a{
+            color: #fff;
+        }
+    }
+    &:after{
+        display: table;
+        clear: both;
+        content:'';
+    }
+}

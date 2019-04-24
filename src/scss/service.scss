@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+// import libs
+@import "common/common";
+@import "common/mixins";
+
+@import "components/button";
+@import "components/form";
+@import "components/list";
+@import "components/nav";
+
+.wrap{
+
+}
+.header{
+    padding:30px;
+    background-color: #2c3e50;
+    .header-title{
+        float: left;
+        a{
+            color:#fff;
+        }
+    }
+    .nav{
+        float: right;
+    }
+    &:after{
+        display: table;
+        clear: both;
+        content:'';
+    }
+}
+.container{
+
+}
+.spot{
+    padding:50px 0;
+    text-align: center;
+    background-color: #18bc9c;
+    img{
+        padding-bottom: 30px;
+    }
+    .spot-title{
+        padding-bottom: 30px;
+        font-size: 25px;
+        color:#fff;
+    }
+    .spot-text{
+        font-size: 20px;
+        color:#fff;
+    }
+}
+.section{
+    padding: 50px 0;
+    text-align: center;
+    .section-title{
+        font-size: 25px;
+        color:#fff;
+    }
+    .section-title-black{
+        margin-bottom: 50px;
+        font-size: 25px;
+        color:#2c3e50;
+    }
+    .about-text-area{
+        display: table;
+        table-layout: fixed;
+        width:100%;
+        .section-text{
+            display: table-cell;
+            width: 50%;
+            color:#fff;
+            font-size: 20px;
+        }
+        &:after{
+            display: table;
+            clear: both;
+            content:'';
+        }
+    }
+    &.section-portfolio{
+        max-width: 1140px;
+        margin:0 auto;
+    }
+    &.section-about{
+        background-color: #18bc9c;
+    }
+}
+.footer{
+
+}
+

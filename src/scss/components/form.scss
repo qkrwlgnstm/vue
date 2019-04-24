@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.list-group{
+    list-style: none;
+    .list-group-item{
+
+    }
+    &.portfolio-list{
+        display:flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        .list-group-item{
+            flex: 0 0 33.333333%;
+            max-width: 33.333333%;
+        }
+    }
+}
