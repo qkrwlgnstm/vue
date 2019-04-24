@@ -4,7 +4,6 @@
 @import "common/common";
 @import "common/mixins";
 
-@import "components/button";
 @import "components/form";
 @import "components/list";
 @import "components/nav";
@@ -87,6 +86,12 @@
     }
 }
 .footer{
-
+    padding:30px 0;
+    text-align: center;
+    background-color: #2c3e50;
+    .copyright{
+        font-size: 20px;
+        color: #fff;
+    }
 }
 

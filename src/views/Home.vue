@@ -26,16 +26,14 @@
                 </div>
             </div>
 
-            <div class="section">
-            
-            </div>
-
-            <div class="section">
-            
-            </div>            
+            <div class="section section-contact">
+                <h3 class="section-title-black">CONTACT ME</h3>
+                <contactform></contactform>
+                <button type="button">SEND</button>
+            </div>      
         </div>
         <footer class="footer">
-        
+            <p class="copyright">Copyright © Your Website 2019</p>
         </footer>
     </div>
 </template>
@@ -44,12 +42,14 @@
 // @ is an alias to /src
 import headernav from '@/components/nav.vue'
 import list from '@/components/list.vue'
+import contactform from '@/components/form.vue'
 
 export default {
   name: 'home',
   components: {
     headernav : headernav,
-    list : list
+    list : list,
+    contactform : contactform
   }
 }
 </script>

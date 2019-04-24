@@ -25,7 +25,7 @@
 
 <script>
 export default {
-    name: 'form',
+    name: 'contactform',
     methods: {
         
     }
