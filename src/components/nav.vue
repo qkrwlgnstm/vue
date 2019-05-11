@@ -1,21 +1,17 @@
 <template>
-    <nav class="nav">
-        <ul class="nav-list">
-            <li class="list-item">
-                <a href="#portfolio">PORTFOLIO</a>
-            </li>
-            <li class="list-item">
-                <a href="#about">ABOUT</a>
-            </li>
-            <li class="list-item">
-                <a href="#contact">CONTACT</a>
-            </li>
-        </ul>
-    </nav>
+    <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation"><a href="#">Profile</a></li>
+        <li role="presentation"><a href="#">Messages</a></li>
+    </ul>
+
 </template>
 
 <script>
 export default {
-    name: 'headernav'
+    name: 'navigation',
+    methods: {
+        
+    }
 }
 </script>
